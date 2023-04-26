@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Speed Typing Game</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<input type="text" class="input-field" autofocus />
+		<div class="text-box">
+			<div class="typing-text">
+				<p id="paragraph"></p>
+			</div>
+		</div>
+		<div class="stats-box">
+			<ul>
+				<li>Tid tilbage: <span class="time"></span></li>
+				<li>WPM: <span class="wpm"></span></li>
+				<li>Antal fejl: <span class="mistakes"></span></li>
+				<li>Præcision <span class="precision"></span></li>
+				<button class="button" onclick="reloadPage()">Prøv igen</button>
+			</ul>
+		</div>
+	</div>
+	<script src="script.js" defer></script>
+</body>
+
+</html>
